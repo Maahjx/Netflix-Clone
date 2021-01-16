@@ -1,0 +1,155 @@
+
+:root{
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/*ELEMENTOS BASE*/
+
+body{
+    background: var(--preta);
+    font-family:'Times New Roman', Times, serif ;
+    color: white;
+}
+
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.distanciamento{
+    margin-left: 5px;
+}
+
+.icones-nav{
+  margin-left: 980px;
+
+}
+
+.logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'arial-black', Times;
+    font-size: 40px;
+    margin-top: 8px;
+}
+
+ header nav a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+
+header nav a:hover{
+    color: #aaa;
+}
+
+/*FILME PRINCIPAL*/
+
+
+.bg-video{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.filme-principal{
+    font-size: 16px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family:'Heebo', sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,0.5);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+    transition: .5s ease all;
+}
+
+.botao i{
+    margin-right: 5px;
+}
+
+.container p{
+    width: 800px;
+}
+
+.container{
+    margin-left: 40px;
+    
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrousel-filmes{
+    margin-top: 15px;
+}
+
+.subtitulo{
+    font-size: 20px;
+    font-family: 'Heebo', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+
+.hebbo-font{
+    font-family: 'Heebo', sans-serif;
+}
+
+.card-row{
+    display: flex;
+    justify-content: start;
+    margin-top: 100px;
+    margin-left: -5px;
+}
+
+.card-img-top{
+    width: 341px;
+    height: 192px;
+    padding: 5px;
+    border-radius: 2%;
+}

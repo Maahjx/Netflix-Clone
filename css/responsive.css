@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+    .hidden{
+        display: none;
+    }
+
+    .bg-video-2{
+        width: 768px;
+    }
+
+    div .container{
+        margin-left: 10px;
+    }
+
+    .botoes{
+        padding-top: 40px;
+    }
+
+    .filme-principal{
+        height: 250px;
+    }
+
+    .titulo{
+        margin-top: 150px;
+    }
+
+    .descricao{
+        display: none;
+    }
+
+}
+
+@media (max-width: 1357px){
+    .card-row{
+        display: none;
+    }
+
+    .hidden{
+        display: none;
+    }
+
+}
